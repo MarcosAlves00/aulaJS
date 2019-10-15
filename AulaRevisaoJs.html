@@ -1,0 +1,83 @@
+<meta charset="UTF-8">
+<script>//cria um popup com a msg do parâmetro
+    //alert("podemos fazer mais com java script!");
+    
+    //document.write("Minha idade é: ");
+    //document.write(21);
+
+    //declarando uma varíável e implemetnando HTML
+    //var ano = 2012;
+    //document.write("<h1>Eu nasci em: " + (ano - 25) + "</h1><br>");
+    
+    //declarando uma funcao em JS e chamando essa funcao.
+    
+    function mostra(frase) {
+        document.write(frase + "<br>");
+     
+    };
+
+    /*var ano = 2012;
+    mostra("Eu nasci em: " + (ano - 25));
+    */
+    /*
+    document.write("olá mundo!" + "<br>");
+    document.write("esse é meu segundo programa");
+    console.log("esta mensagem aperece apesnas no log");
+    */
+    /*
+    var peso =  60;
+    var altura = 1.65;
+    var imc = peso / (altura * altura);
+    mostra("meu IMC é: " + Math.round(imc));
+    */
+    /*
+    "scanf em JS"
+    var nome = prompt("bom dia! qual é o seu nome? ");
+    document.write("Bem vindo(a), " + nome + "<br>");
+    
+    var idade = prompt(nome + ", quantos anos você tem ?");
+    document.write(nome + " tem " + idade + " anos");
+    */
+    /*
+     var vitorias = prompt("quantos jogos o CSA venceu?");
+     var empates = prompt("Qaubtos jogos o CDC empatou?");
+     
+     var pontos = parseInt((vitorias) * 3) + parseInt(empates);
+
+     if(pontos > 42){
+         mostra("<h1>O CSA não sera rebaixado!</h1>");
+
+     }else{
+         mostra("lamneto informar. mas acho quwe o CSA sera rebaixado!")
+     }
+     */
+     /*
+     var numeroPensado = Math.round(Math.random() * 10);
+     var chute = prompt("Já pensei. Qual você acha que é?");
+     if(chute == numeroPensado){
+         mostra("Uau! Você acertou Eu tinha pensado no " + numeroPensado);
+
+     } else{
+         mostra("Você  errou! Eu tinha pensado no " + numeroPensado);
+     }*/
+     /*
+     var anoDeCopa = 1930;
+     while(anoDeCopa <= 2022){
+         alert(anoDeCopa + " tem copa!");
+         anoDeCopa = anoDeCopa + 4;
+     }
+     */
+     /*
+     var numero = 7;
+     for(var multiplicador = 1; multiplicador <= 10; multiplicador++){
+         mostra(multiplicador * numero);
+     }
+     */
+     for(var linha = 0; linha < 3; linha = linha + 1){
+         for(var coluna = 0; coluna < 10; coluna = coluna + 1 ){
+             document.write("*");
+
+         }
+         document.write("<br>")
+     }
+</script>
